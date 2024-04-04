@@ -2,13 +2,30 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 </head>
     
 <body>
+    <svg width="150" height="120" xmlns="http://www.w3.org/2000/svg">
+        <rect x="60" y="60" height="50" width="50" style="stroke:green;fill:red">
+          <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="10s"
+            type="rotate"
+            from="0 85 85"
+            to="360 85 85"
+            repeatCount="indefinite" />
+        </rect>
+      </svg>
+      
+    <!--- See link > https://github.com/milanm/DevOps-Roadmap/blob/master/DevOps%20Roadmap.png -->
     <div class="container">
         <H1> DevOps Roadmap - CI/CD </H1>
         
@@ -28,7 +45,14 @@
                     <a href="https://capco.udemy.com/course/learn-git-by-doing-a-step-by-step-guide-to-version-control/"> Step by Step Guide to Version Control. </a> <br>
                     <a href="https://capco.udemy.com/course/master-git-and-github-in-5-days-go-from-zero-to-hero/"> Master Git & Github in 5 days. </a> 
                 </td>
-                <td > Learn the basics of version control using Git, Learn branching, merging and resolving confilts </td>
+                <td > 
+                    Learn the basics of version control using Git, Learn branching, merging and resolving confilts <br>
+                    Base commands <br>
+                    Pull Requests <br>
+                    Branching <br>
+                    Merging <br>
+
+                </td>
             <tr>
                 <td> 2 </td>
                 <td> Build Automation </td>
@@ -61,7 +85,12 @@
                 <td> 
                     Gain an understanding of CI Principles and practics <br>
                     Learn how to setup CI pipelines using CI servers lke Jenkins, Gitlabs CI/CD, Travis CI etc <br>
-                    Understand triggering builds, running automated tests, generating build artifcats 
+                    Understand triggering builds, running automated tests, generating build artifcats <br>
+
+                    <br>
+                    Setup Server <br>
+                    Integration <br>
+                    Pipeline Tools <br>
                 </td>
             </tr>
             <tr>
@@ -83,7 +112,13 @@
                     Understand the importance of monitoring and observability in a CI/CD pipeline <br>
                     Learn how to set up monitoring and alerting systems using tools like Prometheus, Grafana, or Datadog [Shamjith].<br>
                     Understand metrics, log traversal/tracing for troubleshooting <br>
-                    Comprehend Performance monitoring
+                    Comprehend Performance monitoring <br>
+
+                    <br>
+                    Infrastrcure Monitoring <br>
+                    Application Monitoring <br>
+                    Log Management <br>
+                    Open Telemetry <br>
                 </td>
             </tr>
         
@@ -136,6 +171,7 @@
                     Choose tools for IaC that aligns with the organization. <br>
                     Most popular tool for IaC is Terraform as its flexible and universal. Other tools incude AWS Cloud Formation, Azure Resources Manager (ARM), Google Cloud Deployment Manager and Ansible <br>
                     Master Terramform  syntax, commands, providers, modules, variables.
+
                 </td>
             </tr>
             <tr>
@@ -149,6 +185,10 @@
                     Dive deeper into advanced Terraform topics such as remote state management, Terraform modules, and reusable configurations.<br>
                     Learn how to organize Terraform code effectively using modules and workspaces <br>
                     Explore strategies for managing Terraform state files securely and efficiently.<br>
+
+                    Infra Provisioning <br>
+                    configurations Management <br>
+                    Service Mesh <br>
                     
                 </td>
             </tr>
@@ -164,6 +204,12 @@
                     Understand and build Infra on cloud AWS, Azure, GCP <br>
                     Understand Cloud specific concepts and services related to compute, networking, storage and security <br> 
                     Use Hashicorp documentation to provision cloud services <br>
+                    <br>
+                    IAAS, PAAS, SAAS <br>
+                    Infra Availability <br>
+                    Design and Implementation <br>
+                    Management <br>
+                    Security <br>
                 </td>
             </tr>
 
